@@ -1,0 +1,28 @@
+!SESSION 2014-04-21 22:21:30.176 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.smartbear.collaborator 2 0 2014-04-21 22:23:04.346
+!MESSAGE Could not connect to server to run Refresh Action Items
+!STACK 0
+com.smartbear.ccollab.client.CollabClientServerUrlConnectionException: Could not connect to a CodeCollaborator Server at No URL specified.: You must configure a URL for CodeCollaborator
+	at com.smartbear.ccollab.client.LoginUtils.getXmlClient(LoginUtils.java:397)
+	at com.smartbear.collaborator.Collaborator.getConnection(Collaborator.java:147)
+	at com.smartbear.collaborator.jobs.ClientModelRefreshJob.createConnection(ClientModelRefreshJob.java:43)
+	at com.smartbear.collaborator.jobs.ClientModelRefreshJob.createConnection(ClientModelRefreshJob.java:1)
+	at com.smartbear.collaborator.jobs.RefreshJob.getConnection(RefreshJob.java:106)
+	at com.smartbear.collaborator.jobs.RefreshJob.run(RefreshJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.launching 4 150 2014-04-21 22:27:59.387
+!MESSAGE The project: SoundRecorderProject which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2014-04-21 22:28:17.781
+!MESSAGE The project: SoundRecorderProject which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2014-04-21 22:28:40.357
+!MESSAGE The project: SoundRecorderProject which is referenced by the classpath, does not exist.
